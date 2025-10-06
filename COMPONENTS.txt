@@ -1,0 +1,45 @@
+Sensing & Threshold
+
+NTC Thermistor 10 kΩ @ 25 °C – 1 piece → measures freezer temperature
+
+Fixed resistor 10 kΩ (1%) – 1 piece → voltage divider with thermistor
+
+Multiturn trimmer potentiometer 10 kΩ – 2 pieces → set undercool & overcool thresholds
+
+Comparator & Support
+
+LM393 Dual Comparator (DIP‑8 or SOIC‑8) – 1 piece → two comparators: undercool & overcool
+
+Pull-up resistor 4.7 kΩ – 2 pieces → for LM393 open-collector outputs
+
+Hysteresis resistor 100 kΩ – 2 pieces → prevents output chatter
+
+Outputs & Drivers
+
+NPN transistor 2N2222 or BC547 – 1 piece → drives piezo buzzer
+
+Passive piezo buzzer 5 V – 1 piece → alarm output
+
+LEDs – 3 pieces (Red = undercool, Green = normal, Blue = overcool)
+
+LED series resistors 2.2 kΩ – 3 pieces
+
+Power & Decoupling
+
+0.1 µF ceramic capacitor – 1 piece → decoupling near LM393
+
+10 µF electrolytic capacitor – 1 piece → stabilize power supply
+
+1N4001 diode – 1 piece → optional, reverse-polarity protection
+
+5 V regulated supply → 1 unit (USB module or 7805 + 7–12 V input)
+
+Mechanical / Assembly
+
+Perfboard or small PCB – 1 piece
+
+Small enclosure / project box – 1 piece
+
+Hookup wires / sensor leads – as needed
+
+Solder, flux, screw terminals – as needed
